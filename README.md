@@ -14,6 +14,8 @@ If you wish to run the examples on your own PC, you will need to have [Miniconda
 The environment needed for the demonstration can be installed with the following command:
 
 ```bash
+git clone https://github.com/m-matthews/pyspark-tutorial.git
+cd pyspark-tutorial
 conda create -n pysparktut python=3 pyspark
 conda activate pysparktut
 conda install -c conda-forge notebook
