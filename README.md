@@ -29,3 +29,14 @@ The tutorials can then be executed by starting Jupyter Notebook, and opening the
 ```bash
 jupyter notebook
 ```
+
+
+## Reference
+
+The following links are useful references within the PySpark documentation:
+
+* [PySpark Data Types](https://spark.apache.org/docs/latest/api/python/pyspark.sql.html#module-pyspark.sql.types)
+* [PySpark DataFrame](https://spark.apache.org/docs/latest/api/python/pyspark.sql.html#pyspark.sql.DataFrame)
+* [PySpark Functions](https://spark.apache.org/docs/latest/api/python/pyspark.sql.html#module-pyspark.sql.functions)
+* [PySpark Window Functionality](https://spark.apache.org/docs/latest/api/python/pyspark.sql.html#pyspark.sql.Window)
+* [PySpark Join Functionality](https://spark.apache.org/docs/latest/api/python/pyspark.sql.html#pyspark.sql.DataFrame.join)
