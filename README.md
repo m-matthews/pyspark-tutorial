@@ -16,17 +16,18 @@ The environment needed for the demonstration can be installed with the following
 ```bash
 git clone https://github.com/m-matthews/pyspark-tutorial.git
 cd pyspark-tutorial
-conda create -n pysparktut python=3 pyspark
+conda env create -f environment.yml
 conda activate pysparktut
-conda install -c conda-forge notebook
 ```
 
 
 ## Running the Tutorials
 
-The tutorials can then be executed by starting Jupyter Notebook, and opening the files from there:
+The tutorials can then be executed by starting the [Jupyter Notebook](https://jupyter.org/), and opening the tutorial files from there:
 
 ```bash
+cd pyspark-tutorial
+conda activate pysparktut
 jupyter notebook
 ```
 
